@@ -1,0 +1,12 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "node test",
+  "main": "index.js",
+  "repository": "https://github.com/mine0507/node-test.git",
+  "author": "mine0507",
+  "license": "MIT",
+  "devDependencies": {
+    "encoding-japanese": "^1.0.30"
+  }
+}
