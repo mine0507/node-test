@@ -1,44 +1,42 @@
 module.exports = {
-  "env": {
-    "browser": true,
-    "es6": true,
-    "node": true
+  env: {
+    browser: true,
+    es6: true,
+    node: true,
   },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended",
-    "prettier/@typescript-eslint",
+  extends: [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
+    'prettier/@typescript-eslint',
   ],
-  "globals": {
-    "Atomics": "readonly",
-    "SharedArrayBuffer": "readonly"
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly',
   },
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module"
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module',
   },
-  "plugins": ["@typescript-eslint"],
-  "rules": {
-    "complexity": "warn",
-    "eqeqeq": ["error", "always"],
-    "default-case": "warn",
-    "newline-before-return": "error",
+  plugins: ['@typescript-eslint'],
+  rules: {
+    complexity: 'warn',
+    eqeqeq: ['error', 'always'],
+    'default-case': 'warn',
+    'newline-before-return': 'error',
     // For Override
-    "@typescript-eslint/no-var-requires": ["off"],
-    "@typescript-eslint/explicit-module-boundary-types": ["off"]
+    '@typescript-eslint/no-var-requires': ['off'],
+    '@typescript-eslint/explicit-module-boundary-types': ['off'],
   },
-  "overrides": [
+  overrides: [
     {
       // Only for typescripts
-      "files": ["*.ts", "*.tsx"],
-      "rules": {
-        "@typescript-eslint/no-var-requires": ["error"],
-        "@typescript-eslint/explicit-module-boundary-types": ["error"]
-      }
-    }
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        '@typescript-eslint/no-var-requires': ['error'],
+        '@typescript-eslint/explicit-module-boundary-types': ['error'],
+      },
+    },
   ],
-  "settings": {}
-}
+};

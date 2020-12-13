@@ -1,0 +1,20 @@
+[
+  {
+    "file": "W24958.json",
+    "key": "24958",
+    "company": "LIBERTY",
+    "name": "岩泉線 (茂市～岩泉) "
+  },
+  {
+    "file": "W34503.json",
+    "key": "34503",
+    "company": "KAMIYOSE",
+    "name": "北上線 (北上～横手) "
+  },
+  {
+    "file": "W56395.json",
+    "key": "56395",
+    "company": "YONSEM",
+    "name": "磐越東線(ゆうゆうあぶくまライン) (いわき～郡山) "
+  }
+]

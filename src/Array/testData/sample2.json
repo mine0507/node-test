@@ -1,0 +1,20 @@
+[
+  {
+    "file": "S43245.json",
+    "key": "43245",
+    "company": "NABIA",
+    "name": "[ＪＲ]岩泉線 (茂市～岩泉) "
+  },
+  {
+    "file": "S43346.json",
+    "key": "43346",
+    "company": "KERBEROS",
+    "name": "[ＪＲ]北上線 (岩手～横手) "
+  },
+  {
+    "file": "T56923.json",
+    "key": "56923",
+    "company": "PARTIAL",
+    "name": "[ＪＲ]磐越東線(あぶくまライン) (栃木～郡山) "
+  }
+]

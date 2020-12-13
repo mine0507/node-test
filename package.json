@@ -20,6 +20,9 @@
   },
   "dependencies": {
     "deep-diff": "^1.0.2",
-    "encoding-japanese": "^1.0.30"
+    "encoding-japanese": "^1.0.30",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0",
+    "node-fetch": "^2.6.0"
   }
 }
